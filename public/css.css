@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300;500&display=swap');
+*{
+    font-family: 'Rokkitt', serif;
+}
+h1{
+    font-size: 40px;
+}
+.button{
+    background-color: #E4857F;
+    border-style: none;
+    font-size: 32px;
+    width: 304px;
+    height: 57px;
+    left: 28px;
+    margin-top: 10px;
+    
+}
+.forma-pozicija{
+    margin-top: 10px;
+}
+.label1{
+    text-align: left;
+}
+.logoReg img{  
+    margin-top:10px;
+    width: 200px;
+    height: 180px;
+    left: 134px;
+    top: 14px;
+}
+.logoLog img{  
+    margin-top:10px;
+    width: 340px;
+    height: 300px;
+    left: 134px;
+    top: 14px;
+}
+/* avatar css */
+.avatar-pic {
+    width: 120px;
+}
+
+/*gornji "navbar" treba promijenit naziv klase da vise smisla ima*/
+.redovi {
+    background-color:#E4857F;
+    color: black;
+    text-align: center;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0px auto 5px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+/*elementi naslov("DRUŽENJA") i logout*/
+.red {
+    margin: auto;
+    padding: 12px 12px;
+    width: 100%;
+
+}/* uređuje logout (inače logout je kao link)*/
+.red a {
+    color: black;
+    text-decoration: none;
+}
+
+/* doljnji navbar tu smo odredili da stoji fixiran na dnu ekrana i ostalo */
+.navbar {
+    background-color: #E4857F;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    max-width: 800px;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    left: 0;
+    right: 0;
+  }
+
+  /* linkovi unutar navigacije ILITI ikonice*/
+.navbar a {
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left:15px;
+    
+  }
+  .facss {
+    opacity: 93%;
+  }
+  
+
+  /*  boja linka kad pređemo preko njega to ako bude nekim slučajem na PC-u
+  na mobu nam to netreba  */
+  .navbar a:hover {
+    background-color: #e09590;
+    color: black;
+  }
+  /*  register forma */
+  .about {
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+  }
+/* forma za post ILI TI PostForm.vue*/
+  .form-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .form-container .form-wrap {
+    width: 90%;
+    background: #fff;
+    border-radius: 2px;
+    padding: 10px 14px;
+  }
+
+  .form-container .form-wrap h2 {
+      text-align: center;
+      margin: 0px 0px 20px;
+  }
+  
+  .form-container .form-wrap  .form-box {
+    margin: 0px 0px 20px;
+  }
+  
+  .form-container .form-wrap .form-box .custom-select{
+      padding: 4px 9px;
+      width: 100%;
+      border: 1px solid #3b3b3b;
+      border-radius: 3px;
+  }
+
+  .form-container .form-wrap .form-box textarea {
+      width: 100%;
+      height: 250px;
+      padding: 4px 9px;
+      border: 1px solid #3b3b3b;
+      border-radius: 3px;
+  }
+
+  .form-container .form-wrap .form-submit {
+      display: flex;
+      justify-content: center;
+  }
+  .form-container .form-wrap .form-submit input[type="submit"]{
+      padding: 4px 9px;
+      background: #353535;
+      cursor: pinter;
+      font-size: 17px;
+      font-weight: 700;
+      border-radius: 2px;
+      color: #fff;
+      border: none;
+  }
+  
+
+
+
+
+  
